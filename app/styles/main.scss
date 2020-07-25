@@ -1,6 +1,45 @@
+@import 'reset/reset';
 @import 'fonts';
+@import 'colors';
+@import 'mixins/module';
+@import 'partials/button';
+
+@import 'partials/nav';
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: cornflowerblue;
+	font-family: 'Open Sans', sans-serif;
+	background:#fff;
 }
+
+// a {
+
+//     font-size: calc(17px + 0.3vw);
+//     font-weight: 500;
+//     line-height: 1.3333;
+//     background-color: transparent;
+//     border: unset;
+//     border-bottom: 2px solid currentColor;
+//     border-left: none;
+//     border-right: none;
+//     border-top: none;
+//     color: currentColor;
+//     cursor: pointer;
+//     font-family: "MetSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+//     font-weight: 500;
+//     line-height: 1.2;
+//     padding: 0;
+//     position: relative;;
+// 	&:hover {
+// 		    border-color: transparent;
+
+// 	}
+// 	&::after {
+// 		border-bottom: 2px solid transparent;
+// 		bottom: -2px;
+// 		content: "";
+// 		left: 0;
+// 		position: absolute;
+// 		right: 100%;
+// 		transition: right 0.8s 0.1s;
+// 	}
+// }

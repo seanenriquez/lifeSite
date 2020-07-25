@@ -1,0 +1,19 @@
+
+.btn {
+	@include button;
+
+
+	&-alt {
+		@include button;
+		border: solid 2px $purple;
+		background: transparent;
+		color:$dark-purple;
+
+
+		&:hover {
+			border:none;
+			background: $puple-gradient;
+			color:white;
+		}
+	}
+}

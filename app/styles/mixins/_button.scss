@@ -1,0 +1,19 @@
+
+@mixin button($padding-vertical:.6rem, $padding-horizonal: 1.5rem, $font-size:1rem, $border-radius:100px, $bg-color:$warm-gradient, $font-color:#fff,$font-weight:normal,$border:none) {
+	padding:$padding-vertical $padding-horizonal;
+	display:inline-block;
+	border-radius:$border-radius;
+	background:$bg-color;
+	font-size:$font-size;
+	font-weight:$font-weight; 	
+	color:$font-color;
+	border:$border;
+	transition: background 1s ease-out, transform 250ms ease-in-out; 
+	background-size: 200% auto;
+	&:hover {
+		box-shadow: 0px 0px 10px 0px $shadow;
+		transform: scale(1.05);
+		background-position:100%;
+		
+	}
+}
